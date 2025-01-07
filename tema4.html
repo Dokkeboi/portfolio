@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema2</title>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="mobile_nav">
+        <div class="logo">
+          <a href="index.html"
+            ><img
+              class="mobile_logo"
+              src="assets/logo_red.svg"
+              alt="Portfolio Logo"
+          /></a>
+        </div>
+        <div class="title">Animation</div>
+        <div class="mobile_menu_nav">
+          <div class="mobile_menu hamburger">
+            <nav>
+              <ul class="menu mobile_links">
+                <li><a href="index.html">Forside</a></li>
+                <li>
+                  <a class="menuItem" href="about.html">Om mig</a>
+                </li>
+                <li>
+                  <a class="menuItem" href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                  <a class="menuItem" href="tema2.html">Web</a>
+                </li>
+                <li>
+                  <a class="menuItem" href="tema3.html">UI & UX</a>
+                </li>
+                <li>
+                  <a class="menuItem" href="tema4.html">Animation</a>
+                </li>
+                <li>
+                  <a class="menuItem" href="tema5.html">Indhold</a>
+                </li>
+              </ul>
+              <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <script src="js/menu.js"></script>
+      </div>
+    </header>
+    <main class="tema">
+      <div class="titel">
+        <h1>h1</h1>
+        <h2>lorem ipsum</h2>
+      </div>
+      <div class="grid_1-1-1">
+        <div>
+          <h2>Introduktion</h2>
+          <p>
+            Vores fjerde tema bestod af at lære at lave SVG’er med Illustrator
+            og at arbejde med Javascript, samt animationer med CSS. De
+            forskellige værktøjer og teknikker vi lærte i dette tema skulle
+            tilsammen bruges til at skabe et spil, som skulle følge strukturkrav
+            og følge bestemte “game-mechanics”, som var beskrevet i
+            opgaveformuleringen.
+          </p>
+        </div>
+        <div>
+          <h2>Læringsmål</h2>
+          <p>
+            I dette tema lærte vi at lave animationer i CSS. Dette gjorde vi ved
+            at lave animation-egenskaber, såsom tid, iterationer, delays mm. For
+            at sørge for, at animationerne ville virke, så lærte vi at bruge
+            keyframe regler, hvor vi kunne angive, hvad vores elementer skulle
+            gøre fra 0% af en given tid til 100%. Dette kunne vi benytte til at
+            lave elementer, som kunne bevæge sig på skærmen, der i sidste ende
+            ville være en del af vores endelige spil. I CSS lærte vi også,
+            hvordan man positionerer elementer på siden (hvilke elementer, der
+            skulle stå foran hinanden, og om de skulle være statiske, “fixed”
+            eller relative til andre elementer osv). Vi lærte grundlæggende
+            Javascript. Herunder, hvordan man henter elementer fra HTML med
+            query selector og giver eller fjerner classes på dem. Med Javascript
+            lærte vi også, hvordan man laver basale funktioner ud fra event
+            listeners (såsom klik-events, page reloads osv). For Javascript
+            lærte vi at lave State Machine diagrammer til vores classes og
+            funktioner, som er diagrammer, der beskriver, hvad et objekt skal
+            gøre ved hjælp af funktioner. Vi lærte også at lave
+            aktivitetsdiagrammer, som bruges til at visualisere hele processen
+            bag en opgave fra start til slut (såsom, hvad der sker når man
+            klikker på elementer, hvad der sker når siden indlæses og/eller
+            hvilke forskellige muligheder der er at opnå gennem processen).
+            Desuden lærte vi mere om versionsstyring i det, at vi installerede
+            Git og arbejdede med at lave repositories, hvor vi kunne arbejde ud
+            fra branches og essentielt lave forskellige versioner og iterationer
+            af én opgave, som i vores tilfælde var vores spil.
+          </p>
+        </div>
+        <div>
+          <h2>Proces og løsning</h2>
+          <p>
+            Processen gik ud på, at vi startede med at skitsere idéer til et
+            spil, vi gerne vil lave, så længe det overholdt de krav, som var
+            givet. Kravene var, at vi skulle lave et spil, hvor man skulle have
+            mulighed for at have forskellige ting bevægende på en skærm, som var
+            mulige at klikke på. Elementer skulle være gode ting, som kunne give
+            point, og dårlige ting, som ville trække liv. Spillet skulle have en
+            god slutning (når man har fået nok point) og en dårlig slutning (når
+            man har mistet alle liv eller hvis tiden var gået). Da vi havde
+            lavet idéer og var klar til at gå videre, skulle vi lave nogle
+            illustrationer med Adobe Illustrator i form af SVG’er, som skulle
+            være elementerne i spillet. Dette skulle tage udgangspunkt i vores
+            endelige idéer til spillet. Vi brugte CSS animationer for at få
+            elementerne til at bevæge sig på skærmen, og til at lave en timer.
+            Vi brugte Javascript til fjerne og tilføje elementer på skærmen, når
+            vi interagerede med dem og lavede forskellige funktioner til events,
+            såsom når tid er gået, når siden genindlæses eller generelt når
+            spillet stoppes.
+          </p>
+        </div>
+      </div>
+      <div class="images_1-1-1-1">
+        <img src="images/tema4_1.webp" alt="tema4" />
+        <video src="videos/tema4_2.webm" controls></video>
+        <img src="images/tema4_3.webp" alt="tema4" />
+        <img src="images/tema4_4.webp" alt="tema4" />
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <h3>Lavet af Asger Dokkedal</h3>
+    </footer>
+  </body>
+</html>
