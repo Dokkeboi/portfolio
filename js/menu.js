@@ -1,3 +1,6 @@
+// inspiration fra fronter ressourcer og tema 5 opgave, tilpasset den så
+// så den passer til denne opgave.
+
 const burger = document.querySelector(".mobile_menu_nav .burger");
 const nav = document.querySelector(".mobile_menu_nav nav");
 const menu = document.querySelector(".mobile_menu_nav .menu");
