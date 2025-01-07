@@ -27,7 +27,9 @@
     font-family: "Cardo", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #950d1b;
   }
 
   p {
@@ -51,6 +53,18 @@
     font-family: "cardo", serif;
     font-size: 20px;
   }
+
+  .portfolio .grid_1-1 div {
+    place-items: center;
+    background-color: #ffd17b;
+    padding: 20px 0px 20px 0px;
+  }
+  .portfolio .grid_1-1 a {
+    text-decoration: none;
+    font-family: "cardo", serif;
+    font-size: 24px;
+    color: #950d1b;
+  }
 }
 
 /* desktop style */
@@ -68,6 +82,7 @@
     font-style: normal;
     font-size: 24px;
     font-weight: bold;
+    color: #950d1b;
   }
 
   .hero {
@@ -101,7 +116,7 @@
   }
   .portfolio .grid_1-1 div {
     place-items: center;
-    background-color: aliceblue;
+    background-color: #ffd17b;
     padding: 20px 0px 20px 0px;
   }
   .portfolio .grid_1-1 a {

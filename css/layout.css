@@ -16,12 +16,17 @@ video {
     margin: 0px 20px 10px 20px;
   }
 
+  hr {
+    margin: 20px 100px 20px 100px;
+    border: 1px solid #950d1b;
+  }
+
   .logo {
     padding: 5px;
   }
 
   .logo img {
-    width: 150px;
+    width: 90px;
     border-radius: 6px;
   }
 
@@ -71,9 +76,17 @@ video {
     padding: 20px 0px 20px 0px;
   }
 
-  .about .grid_1-1 .images_1-1-1 {
+  .about .grid_1-1 .image_1-1-1 {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .about .grid_1-1 .image_1-1-1 img {
+    width: 50%;
+  }
+
+  .portfolio img {
+    display: none;
   }
 
   .portfolio .grid_1-1 {
@@ -86,9 +99,16 @@ video {
   }
 
   .portfolio .grid_1-1 div {
-    place-items: center;
-    background-color: aliceblue;
-    padding: 20px 0px 20px 0px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .portfolio .grid_1-1 h2 {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .portfolio .grid_1-1 img {
+    padding: 20px;
   }
 
   .tema .grid_1-1-1 {
@@ -148,16 +168,18 @@ video {
   }
 
   hr {
-    margin: 0px 100px 0px 100px;
+    margin: 20px 100px 20px 100px;
     border: 1px solid #950d1b;
   }
 
   header {
-    margin: 0px 100px 0px 100px;
+    width: 1080px;
+    margin: auto;
   }
 
   main {
-    margin: 20px 100px 0px 100px;
+    max-width: 1080px;
+    margin: auto;
   }
 
   .home_nav {
@@ -194,6 +216,14 @@ video {
     padding: 20px 0px 20px 0px;
   }
 
+  .about h3 {
+    place-self: center;
+  }
+
+  .about img {
+    width: 50%;
+  }
+
   .about .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -203,8 +233,9 @@ video {
 
   .about .grid_1-1 .image_1-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
+    place-items: center;
   }
 
   .portfolio .grid_1-1 {
@@ -231,7 +262,7 @@ video {
     gap: 20px;
     place-self: center;
     padding: 20px 0px 20px 0px;
-    margin: 0px 400px 0px 400px;
+    margin: 0px 200px 0px 200px;
   }
 
   .tema .grid_1-1-1 div {
