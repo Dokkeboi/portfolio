@@ -51,11 +51,9 @@ nav {
   transition: color 0.3s;
   text-align: center;
   font-family: "cardo", serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
   color: #950d1b;
-  place-self: right;
   border: 2px solid #950d1b;
   border-radius: 3px;
   background-color: #ffe8bd;
