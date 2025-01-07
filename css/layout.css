@@ -15,6 +15,15 @@ video {
   body {
     margin: 0px 20px 10px 20px;
   }
+
+  .logo {
+    padding: 10px;
+  }
+
+  .logo img {
+    border-radius: 6px;
+  }
+
   .hero {
     display: none;
   }
@@ -127,19 +136,29 @@ video {
 /* Desktop Site */
 @media (min-width: 1080px) {
   body {
-    margin: 0px 100px 10px 100px;
+    margin: 0px 0px 10px 0px;
   }
 
-  .hero {
-    position: absolute;
-    overflow: hidden;
-    pointer-events: none;
-    order: -1;
-    max-height: 695px;
+  .logo {
+    padding: 20px;
   }
 
-  .main {
-    margin-top: 20px;
+  .logo img {
+    width: 150px;
+    border-radius: 6px;
+  }
+
+  hr {
+    margin: 0px 100px 0px 100px;
+    border: 1px solid #950d1b;
+  }
+
+  header {
+    margin: 0px 100px 0px 100px;
+  }
+
+  main {
+    margin: 20px 100px 0px 100px;
   }
 
   .home_nav {
@@ -236,7 +255,6 @@ video {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     place-items: center;
-    background-color: rgb(255, 255, 255);
   }
 
   .burger_grid {
@@ -249,7 +267,7 @@ video {
   }
   .mobile_menu_nav .mobile_menu {
     grid-column: 5;
-    margin: 10px;
+    margin: 0px;
   }
   footer {
     display: flex;

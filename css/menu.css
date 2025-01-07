@@ -13,11 +13,11 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  width: 100%;
+  background-color: #ffffff46;
   max-width: 100%;
   overflow: hidden;
   z-index: 100;
+  border-radius: 6px;
 }
 
 nav {
